@@ -6,4 +6,4 @@ Ensemble des fichiers de configuration pour les rendre accessibles depuis partou
 - [ ] Git
 - [ ] Tmux
 - [ ] Zsh
-- [ ] Powershell
+- [x] Powershell
