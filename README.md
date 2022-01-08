@@ -4,6 +4,6 @@ Ensemble des fichiers de configuration pour les rendre accessibles depuis partou
 # Liste des fichiers
 - [ ] Vim
 - [ ] Git
-- [ ] Tmux
-- [ ] Zsh
+- [x] Tmux
+- [x] Zsh
 - [x] Powershell
