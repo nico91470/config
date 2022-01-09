@@ -1,0 +1,10 @@
+[Alias]
+	st = status
+	co = checkout
+	br = branch
+	ci = commit
+	alias = config --get-regexp '^alias.*'
+	list-branch =  ! git for-each-ref --format=' %(authorname) %09 %(refname)' --sort=authorname
+	list-my-branch = git for-each-ref --format=' %(authorname) %09 %(refname)' --sort=authorname | grep '$(git config user.name)'
+	todo = ! git grep --extended-regexp -I --line-number --break --heading --color=auto 'TODO|FIXME'
+	todo-list = ! git grep --extended-regexp -I --line-number --count 'TODO|FIXME'
